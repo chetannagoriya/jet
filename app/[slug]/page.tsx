@@ -1,7 +1,6 @@
 'use client';
 
-import { use, useMemo, useState } from 'react';
-import { Check, ChevronRight, Download } from 'lucide-react';
+import { use } from 'react';
 import { ButtonLink, Footer, Hero, ImageCard, destinations } from '../site';
 import { LegalPage } from '@/components/LegalPage';
 import { AboutPage } from '@/components/AboutPage';

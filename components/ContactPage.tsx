@@ -10,7 +10,6 @@ import {
   ShieldCheck,
   CheckCircle2,
   ArrowRight,
-  Send,
   Building2,
   MapPin,
   Sparkles,
@@ -40,20 +39,22 @@ export function ContactPage() {
       const dateParam = params.get('date');
       const serviceParam = params.get('service');
       if (fromParam || toParam || dateParam || serviceParam) {
-        setForm((prev) => ({
-          ...prev,
-          origin: fromParam || prev.origin,
-          destination: toParam || prev.destination,
-          date: dateParam || prev.date,
-          service: serviceParam || prev.service,
-        }));
+        setTimeout(() => {
+          setForm((prev) => ({
+            ...prev,
+            origin: fromParam || prev.origin,
+            destination: toParam || prev.destination,
+            date: dateParam || prev.date,
+            service: serviceParam || prev.service,
+          }));
+        }, 0);
       }
     }
   }, []);
 
   const update = (key: string, value: string) => setForm({ ...form, [key]: value });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (form.name && form.email) {
       setSubmitted(true);
@@ -265,7 +266,7 @@ export function ContactPage() {
 
                 {/* Service Selection */}
                 <div className="form-section">
-                  <label className="section-label">Select Service</label>
+                  <span className="section-label">Select Service</span>
                   <div className="choice-pills">
                     {[
                       'Private Jet',

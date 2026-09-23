@@ -10,11 +10,10 @@ import {
   Anchor,
   Sparkles,
   ArrowRight,
-  CheckCircle2,
   Building2,
   MapPin,
 } from 'lucide-react';
-import { Header, Footer, ButtonLink, Brand } from '@/app/site';
+import { Header, Footer, ButtonLink } from '@/app/site';
 
 export function AboutPage() {
   return (
