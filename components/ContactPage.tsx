@@ -87,30 +87,19 @@ export function ContactPage() {
       {/* Floating Priority Direct Channels Bar */}
       <div className="wrap">
         <div className="contact-priority-bar">
-          <a href="tel:+14158904820" className="priority-channel-card">
+          <a href="tel:+919784626443" className="priority-channel-card">
             <div className="priority-icon">
               <Phone size={18} />
             </div>
             <div>
-              <span className="priority-tag">Americas Desk</span>
-              <strong>+1 (415) 890-4820</strong>
-              <small>San Francisco · 24/7 Direct</small>
-            </div>
-          </a>
-
-          <a href="tel:+911414932800" className="priority-channel-card">
-            <div className="priority-icon">
-              <Phone size={18} />
-            </div>
-            <div>
-              <span className="priority-tag">Asia & Royal Desk</span>
-              <strong>+91 (141) 493-2800</strong>
-              <small>Jaipur · 24/7 Direct</small>
+              <span className="priority-tag">Direct Concierge</span>
+              <strong>+91 97846 26443</strong>
+              <small>Jaipur (HQ) · 24/7 Direct</small>
             </div>
           </a>
 
           <a
-            href="https://wa.me/911414932800"
+            href="https://wa.me/919784626443?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20a%20private%20charter"
             target="_blank"
             rel="noopener noreferrer"
             className="priority-channel-card"
@@ -121,18 +110,29 @@ export function ContactPage() {
             <div>
               <span className="priority-tag">Instant Chat</span>
               <strong>WhatsApp Concierge</strong>
-              <small>Immediate Specialist Reply</small>
+              <small>+91 97846 26443 · Fast Reply</small>
             </div>
           </a>
 
-          <a href="mailto:concierge@veirakas.com" className="priority-channel-card">
+          <a href="mailto:info@celebso.com" className="priority-channel-card">
             <div className="priority-icon">
               <Mail size={18} />
             </div>
             <div>
-              <span className="priority-tag">Confidential Email</span>
-              <strong>concierge@veirakas.com</strong>
-              <small>Private Itinerary Proposals</small>
+              <span className="priority-tag">Official Proposals</span>
+              <strong>info@celebso.com</strong>
+              <small>Primary Concierge Desk</small>
+            </div>
+          </a>
+
+          <a href="mailto:info.celebso@gmail.com" className="priority-channel-card">
+            <div className="priority-icon">
+              <Mail size={18} />
+            </div>
+            <div>
+              <span className="priority-tag">Direct Desk</span>
+              <strong>info.celebso@gmail.com</strong>
+              <small>24/7 Fast Response</small>
             </div>
           </a>
         </div>
@@ -448,19 +448,23 @@ export function ContactPage() {
             <div className="hub-card-header">
               <MapPin size={20} className="text-gold" />
               <div>
-                <span className="hub-region">South Asia & Middle East</span>
-                <h3>Jaipur Hub</h3>
+                <span className="hub-region">Global Headquarters</span>
+                <h3>Jaipur Hub (HQ)</h3>
               </div>
             </div>
             <p className="hub-address-text">
-              C-Scheme, Ashok Nagar
-              <br />
               Jaipur, Rajasthan 302001, India
+              <br />
+              Executive Leadership: Veer Singh (Founder & CEO)
             </p>
             <div className="hub-meta">
-              <span>Royal Heritage Desks & Indian Ocean Corridors</span>
-              <a href="tel:+911414932800" className="hub-direct-link">
-                +91 (141) 493-2800
+              <span>Direct Concierge Line / WhatsApp:</span>
+              <a href="tel:+919784626443" className="hub-direct-link">
+                +91 97846 26443
+              </a>
+              <span>Official Inquiries:</span>
+              <a href="mailto:info@celebso.com" className="hub-direct-link">
+                info@celebso.com
               </a>
             </div>
           </div>
@@ -478,8 +482,8 @@ export function ContactPage() {
             </p>
             <div className="hub-meta">
               <span>24/7 Global Vessel & Flight Tracking</span>
-              <a href="mailto:concierge@veirakas.com" className="hub-direct-link">
-                concierge@veirakas.com
+              <a href="mailto:info.celebso@gmail.com" className="hub-direct-link">
+                info.celebso@gmail.com
               </a>
             </div>
           </div>

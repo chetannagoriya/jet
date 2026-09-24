@@ -227,7 +227,7 @@ export function AboutPage() {
               <div className="founder-img-wrapper">
                 <img
                   src="/images/founder.webp"
-                  alt="Chetan Nagoriya - Founder & CEO"
+                  alt="Veer Singh - Founder & CEO"
                   className="founder-portrait"
                   loading="lazy"
                 />
@@ -254,7 +254,7 @@ export function AboutPage() {
                   &ldquo;Our mission is simple: to make the extraordinary feel completely effortless, personal, and unforgettable.&rdquo;
                 </p>
                 <div className="founder-sign">
-                  <strong>Chetan Nagoriya</strong>
+                  <strong>Veer Singh</strong>
                   <span>Founder & CEO · Celebso Group & Veirakas Private Travel</span>
                 </div>
               </div>
@@ -269,9 +269,9 @@ export function AboutPage() {
               <h2>We’re here to make private travel as seamless as a call.</h2>
               <p>One dedicated specialist manages your flight, yacht, villa, and ground transport.</p>
               <div className="concierge-hubs-tag">
-                <span>San Francisco</span>
+                <span>Jaipur (HQ)</span>
                 <span className="dot">·</span>
-                <span>Jaipur</span>
+                <span>San Francisco</span>
                 <span className="dot">·</span>
                 <span>Global Network</span>
               </div>
@@ -604,12 +604,28 @@ export function AboutPage() {
               <p className="eyebrow text-gold">Global Presence</p>
               <h2>Our Operating Hubs</h2>
               <div className="hub-entry">
-                <strong>San Francisco Desk</strong>
-                <p>Americas aviation, transpacific routing & executive charter management.</p>
+                <strong>Jaipur Headquarters (HQ)</strong>
+                <p>Jaipur, Rajasthan, India</p>
+                <p>
+                  Direct Concierge:{' '}
+                  <a href="tel:+919784626443" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                    +91 97846 26443
+                  </a>
+                </p>
+                <p>
+                  Email:{' '}
+                  <a href="mailto:info@celebso.com" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                    info@celebso.com
+                  </a>{' '}
+                  ·{' '}
+                  <a href="mailto:info.celebso@gmail.com" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                    info.celebso@gmail.com
+                  </a>
+                </p>
               </div>
               <div className="hub-entry">
-                <strong>Jaipur Desk</strong>
-                <p>South Asian royal heritage, Middle Eastern corridors & round-the-clock concierge.</p>
+                <strong>San Francisco Desk</strong>
+                <p>Americas aviation, transpacific routing & executive charter management.</p>
               </div>
               <div className="hubs-action">
                 <ButtonLink href="/contact">Request a private quote</ButtonLink>

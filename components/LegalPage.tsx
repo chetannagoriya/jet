@@ -147,15 +147,25 @@ export function LegalPage({ currentKey }: LegalPageProps) {
                 <Brand />
                 <div className="legal-contact-details">
                   <h4>Veirakas Private Travel</h4>
-                  <p className="legal-venture-tag">A Venture of Celebso Group</p>
+                  <p className="legal-venture-tag">A Venture of Celebso Group · Leadership: Veer Singh (Founder & CEO)</p>
                   <p className="legal-contact-line">
-                    <strong>Jurisdiction:</strong> India & Global Concierge Operations
+                    <strong>Headquarters:</strong> Jaipur, Rajasthan, India
                   </p>
                   <p className="legal-contact-line">
-                    <strong>Direct Concierge:</strong>{' '}
-                    <Link href="/contact" className="legal-gold-link">
-                      concierge@veirakas.com
-                    </Link>
+                    <strong>Direct Concierge / WhatsApp:</strong>{' '}
+                    <a href="tel:+919784626443" className="legal-gold-link">
+                      +91 97846 26443
+                    </a>
+                  </p>
+                  <p className="legal-contact-line">
+                    <strong>Official Communications:</strong>{' '}
+                    <a href="mailto:info@celebso.com" className="legal-gold-link">
+                      info@celebso.com
+                    </a>{' '}
+                    ·{' '}
+                    <a href="mailto:info.celebso@gmail.com" className="legal-gold-link">
+                      info.celebso@gmail.com
+                    </a>
                   </p>
                 </div>
               </div>
